@@ -58,7 +58,7 @@ const slides = ref([
 }
 
 .swiper {
-  height: 425px;
+  /* height: 425px; */
 }
 .swiper-slide {
   display: flex;
@@ -72,9 +72,7 @@ const slides = ref([
   border-radius: 8px;
 }
 .swiper-wrapper {
-  /* min-width: 100vh;
-  width: 100vh; */
-  /* padding: 4rem; */
+  text-align: center;
 }
 .swiper-cards {
   width: 240px;
@@ -92,17 +90,17 @@ const slides = ref([
 }
 
 .swiper-pagination {
-  bottom: 0px !important;
+  bottom: -3px !important;
 }
 
 .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  background-color: #fff;
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #fff !important;
   border: 1px solid blue;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: blue;
+  background-color: blue !important;
 }
 </style>
